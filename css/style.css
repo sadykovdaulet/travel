@@ -706,8 +706,8 @@ img {
 
 /*Places styles start*/
 
-.places{
- margin-bottom: 131px;
+.places {
+  margin-bottom: 131px;
 }
 .places_caption {
   display: flex;
@@ -715,10 +715,9 @@ img {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 36px;
-
 }
-.places_title{
-  margin-right:15px ;
+.places_title {
+  margin-right: 15px;
 }
 .places_view_all {
   font-size: 16px;
@@ -729,69 +728,70 @@ img {
   padding-right: 59px;
   background: url(/img/svg/Shape.svg) no-repeat right center;
 }
-.places_view_all:hover, .places_view_all:focus {
-opacity: 0.65;
+.places_view_all:hover,
+.places_view_all:focus {
+  opacity: 0.65;
 }
-.places_cards{
+.places_cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
 }
-.places_cards_size_lg{
+.places_cards_size_lg {
   grid-column: span 3;
 }
-.places_cards_size_sm{
+.places_cards_size_sm {
   grid-column: span 2;
 }
-.places_cars_pic{
+.places_cars_pic {
   width: 100%;
   transition: 0.15s all;
 }
-.places_cars_pic_size_lg{
+.places_cars_pic_size_lg {
   height: 354px;
   object-fit: cover;
 }
 
-.places_cars_pic_size_sm{
+.places_cars_pic_size_sm {
   height: 283px;
   object-fit: cover;
 }
 
-.places_card{
+.places_card {
   position: relative;
   overflow: hidden;
 }
-.places_card:hover .places_cars_pic{
-transform: scale(1.05);
+.places_card:hover .places_cars_pic {
+  transform: scale(1.05);
 }
-.places_card::after{
+.places_card::after {
   display: block;
   content: "";
   width: 100%;
   height: 100%;
-  background-color: rgba(21, 24, 36, 0.4);;
+  background-color: rgba(21, 24, 36, 0.4);
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
 }
-.places_card_title{
+.places_card_title {
   font-size: 50px;
   line-height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   bottom: 27px;
   left: 29px;
   z-index: 3;
-  }
- 
-  .places_card_link{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 4;
-  }
+}
+
+.places_card_link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
 
 /*Places styles end*/
