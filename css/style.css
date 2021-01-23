@@ -795,3 +795,34 @@ img {
 }
 
 /*Places styles end*/
+
+/*Tours styles start*/
+.tours {
+  margin-bottom: 139px;
+}
+.tours_tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+  align-items: center;
+}
+
+.tour_title{
+      font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+    margin-bottom: 85px;
+}
+.tour_description{
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+}
+
+
+
+
+
+
+/*Tours styles end*/
