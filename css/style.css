@@ -934,18 +934,29 @@ img {
 
 /*Top styles end*/
 
-
 /*Videos styles start*/
 
-.videos{
+.videos {
   width: 100%;
 }
 
-.videos_wrapper{
-max-width: 1440px;
-margin: 0 auto;
+.videos_wrapper {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
 }
-
-
-
+.video_item {
+  padding-top: 56.25%;
+}
+.video_element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.footer {
+  background: #0e1d28;
+  padding: 119px 0;
+}
 /*Videos styles end*/
